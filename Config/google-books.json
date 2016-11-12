@@ -1,0 +1,4 @@
+{
+    "api-key": "$GOOGLE-BOOKS-API-KEY",
+    "api-base-url": "https://www.googleapis.com/books/v1"
+}
