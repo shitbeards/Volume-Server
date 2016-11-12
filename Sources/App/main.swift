@@ -7,6 +7,9 @@ drop.get { req in
     	"message": drop.localization[req.lang, "welcome", "title"]
     ])
 }
+drop.get("hello") { request in
+    return "Hello, world!"
+}
 
 drop.resource("posts", PostController())
 
