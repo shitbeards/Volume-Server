@@ -20,7 +20,7 @@ drop.get("books") { request in
 }
 
 drop.get("test") { request in
-    return try drop.client.get("http://www.google.com")
+    return try drop.client.get("\(drop.config["google-books", "test"]!.string!)")
 }
 
 drop.resource("posts", PostController())

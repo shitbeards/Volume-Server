@@ -1,4 +1,5 @@
 {
     "api-key": "$GOOGLE_BOOKS_API_KEY",
-    "api-base-url": "https://www.googleapis.com/books/v1"
+    "api-base-url": "https://www.googleapis.com/books/v1",
+    "test": "$TEST"
 }
